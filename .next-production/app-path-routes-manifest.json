@@ -1,0 +1,20 @@
+{
+  "/api/forms/[kind]/route": "/api/forms/[kind]",
+  "/api/health/route": "/api/health",
+  "/api/reviews/route": "/api/reviews",
+  "/favicon.ico/route": "/favicon.ico",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/a-propos/page": "/a-propos",
+  "/faq/page": "/faq",
+  "/avis/page": "/avis",
+  "/demande-devis/page": "/demande-devis",
+  "/mentions-legales/page": "/mentions-legales",
+  "/contact/page": "/contact",
+  "/methode-pedagogique/page": "/methode-pedagogique",
+  "/formations/page": "/formations",
+  "/formations/[slug]/page": "/formations/[slug]",
+  "/politique-confidentialite/page": "/politique-confidentialite"
+}

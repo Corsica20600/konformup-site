@@ -1,0 +1,1 @@
+import Link from "next/link"; import { Page } from "@/components/site-shell"; export default function NotFound(){return <Page><section className="page-hero centered"><p className="eyebrow gold">Erreur 404</p><h1>Cette page n’existe pas ou n’est plus disponible.</h1><Link className="button" href="/">Revenir à l’accueil</Link></section></Page>}
