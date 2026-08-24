@@ -1,6 +1,7 @@
 .brand img {
-  width: 148px !important;
-  height: 62px !important;
+  width: 130px !important;
+  height: 98px !important;
+  object-fit: contain !important;
   mix-blend-mode: normal !important;
 }
 
@@ -16,5 +17,5 @@
 }
 
 @media (max-width: 800px) {
-  .brand img { width: 125px !important; height: 54px !important; }
+  .brand img { width: 104px !important; height: 78px !important; }
 }

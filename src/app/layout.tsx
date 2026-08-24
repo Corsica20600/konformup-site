@@ -10,7 +10,7 @@ import { site } from "@/lib/site-config";
 const sans = Manrope({ subsets:["latin"], variable:"--font-sans" });
 const serif = Playfair_Display({ subsets:["latin"], variable:"--font-serif" });
 
-export const metadata: Metadata = { metadataBase: new URL(site.url), title:{default:"Konform’up | Formations SST, hygiène & IA", template:"%s | Konform’up"}, description:site.description, alternates:{canonical:"/"}, openGraph:{type:"website",locale:"fr_FR",siteName:"Konform’up",title:"Konform’up — Former pour agir, prévenir et progresser",description:site.description,url:site.url}, twitter:{card:"summary_large_image"}, robots:{index:true,follow:true}, icons:{icon:"/favicon.ico"} };
+export const metadata: Metadata = { metadataBase: new URL(site.url), title:{default:"Konform’up | Formations SST, hygiène & IA", template:"%s | Konform’up"}, description:site.description, alternates:{canonical:"/"}, openGraph:{type:"website",locale:"fr_FR",siteName:"Konform’up",title:"Konform’up — Former pour agir, prévenir et progresser",description:site.description,url:site.url}, twitter:{card:"summary_large_image"}, robots:{index:true,follow:true}, icons:{icon:"/icon.png",shortcut:"/icon.png",apple:"/icon.png"} };
 
 export default function RootLayout({
   children,
