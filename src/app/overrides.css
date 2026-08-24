@@ -14,3 +14,26 @@
   background: #b8964d;
   color: #151515;
 }
+
+/* Defensive rendering layer: the public content must never depend on hydration. */
+body {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  background: #f7f3eb !important;
+  color: #151515 !important;
+}
+
+header, main, footer, main > section {
+  display: block;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.header, .hero, .offer-grid, .split-section, .media-section, .review-grid, .footer {
+  display: flex !important;
+}
+
+.hero, .offer-grid, .split-section, .media-section, .review-grid {
+  display: grid !important;
+}
