@@ -39,3 +39,6 @@ body{background:#fffaf5!important;color:#20332f!important}.header{background:#ff
 @media(max-width:650px){.form{padding:28px 20px!important;border-radius:28px}.form-grid{grid-template-columns:1fr!important}.form .consent{margin-left:0!important;margin-right:0!important}.submission-card{padding:34px 24px;border-radius:28px}}
 
 .quote-page{padding-top:48px!important}.quote-intro{max-width:720px;margin:0 auto 28px;text-align:center}.quote-intro .breadcrumb{justify-content:center;color:#5a746a;margin-bottom:18px}.quote-intro h1{margin:10px 0;color:#29423c;font-size:clamp(2.5rem,5vw,4.6rem);line-height:1}.quote-intro>p:last-child{max-width:590px;margin:0 auto;color:#5a6d66;font-size:1.05rem}
+
+/* Portrait on the about page. */
+.narrative .team-photo{margin:2.75rem 0 3rem;overflow:hidden;border-radius:2.1rem 2.1rem 5.4rem 2.1rem;background:#e7eee8;box-shadow:1rem 1.15rem 0 #efe1d7,0 1.5rem 3rem rgba(32,51,47,.12)}.narrative .team-photo img{display:block;width:100%;height:auto}.narrative .team-photo figcaption{padding:1rem 1.35rem;background:#edf3ed;color:#29433b;font-size:.96rem;line-height:1.5}@media(max-width:760px){.narrative .team-photo{margin:2rem 0 2.4rem;border-radius:1.5rem 1.5rem 3.5rem 1.5rem;box-shadow:.55rem .65rem 0 #efe1d7,0 1rem 2rem rgba(32,51,47,.1)}.narrative .team-photo figcaption{padding:.9rem 1rem}}
