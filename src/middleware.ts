@@ -10,7 +10,11 @@ export function middleware(request: NextRequest) {
     target.host = "www.konformup.com";
     return NextResponse.redirect(target, 301);
   }
-  return NextResponse.next();
+  const response = NextResponse.next();
+  if (host?.endsWith(".vercel.app")) {
+    response.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive");
+  }
+  return response;
 }
 
 export const config = { matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"] };

@@ -1,8 +1,9 @@
 import Image from "next/image";
 
 import { Breadcrumb, Page } from "@/components/site-shell";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata = { title: "À propos" };
+export const metadata = pageMetadata({ title: "À propos de Konform’up", description: "Découvrez Konform’up, organisme de formation créé par Karine et François Vannucci, présent en Corse et sur le continent.", path: "/a-propos" });
 
 export default function About() {
   return (

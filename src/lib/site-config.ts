@@ -1,7 +1,7 @@
 export const site = {
   name: "Konform’up",
   url: "https://www.konformup.com",
-  description: "Formations SST, hygiène alimentaire et intelligence artificielle pour les entreprises.",
+  description: "Formations SST, MAC SST, premiers secours, hygiène et intelligence artificielle pour les entreprises, en Corse et sur le continent.",
   contact: { email: "contact@konformup.com", phone: "07 84 27 96 69" },
   social: { instagram: "https://www.instagram.com/konformupcorse/", facebook: null as string | null, linkedin: "https://www.linkedin.com/in/karine-vannucci-2684ba1b3/" },
   legal: { address: null as string | null, siret: null as string | null, nda: null as string | null, publisher: null as string | null, host: "Vercel Inc." },
