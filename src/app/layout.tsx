@@ -4,6 +4,7 @@ import "./globals.css";
 import "./overrides.css";
 import "./redesign.css";
 import "./logo-sizing.css";
+import "./pastel-redesign.css";
 
 import { site } from "@/lib/site-config";
 const sans = Manrope({ subsets:["latin"], variable:"--font-sans" });
