@@ -1,6 +1,6 @@
-import { NextResponse, type NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 /** Domain redirects are configured in Vercel; do not intercept App Router flight requests. */
-export function middleware(_request: NextRequest) {
+export function middleware() {
   return NextResponse.next();
 }
 
