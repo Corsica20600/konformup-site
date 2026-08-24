@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import "./overrides.css";
+import "./redesign.css";
+import "./logo-sizing.css";
 
 import { site } from "@/lib/site-config";
 const sans = Manrope({ subsets:["latin"], variable:"--font-sans" });

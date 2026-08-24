@@ -1,0 +1,20 @@
+.brand img {
+  width: 148px !important;
+  height: 62px !important;
+  mix-blend-mode: normal !important;
+}
+
+.hero-art {
+  padding: 7% !important;
+}
+
+.hero-art img {
+  width: min(100%, 560px) !important;
+  height: auto !important;
+  object-fit: contain;
+  mix-blend-mode: normal !important;
+}
+
+@media (max-width: 800px) {
+  .brand img { width: 125px !important; height: 54px !important; }
+}
