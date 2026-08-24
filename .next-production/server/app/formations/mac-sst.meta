@@ -1,7 +1,0 @@
-{
-  "headers": {
-    "x-nextjs-stale-time": "4294967294",
-    "x-nextjs-prerender": "1",
-    "x-next-cache-tags": "_N_T_/layout,_N_T_/formations/layout,_N_T_/formations/[slug]/layout,_N_T_/formations/[slug]/page,_N_T_/formations/mac-sst"
-  }
-}
