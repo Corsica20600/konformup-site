@@ -1,0 +1,16 @@
+/* Gold remains an accent, never a dominant page background. */
+.hero-art {
+  background: linear-gradient(135deg, #111 0%, #201c15 70%, #151515 100%);
+  color: #f7f3eb;
+  border-color: #2d2a25;
+}
+
+.cta {
+  background: #151515;
+  color: #f7f3eb;
+}
+
+.cta .button {
+  background: #b8964d;
+  color: #151515;
+}
