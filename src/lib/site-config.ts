@@ -3,7 +3,7 @@ export const site = {
   url: "https://www.konformup.com",
   description: "Formations SST, hygiène alimentaire et intelligence artificielle pour les entreprises.",
   contact: { email: "contact@konformup.com", phone: null as string | null },
-  social: { instagram: "https://www.instagram.com/konformupcorse/", facebook: null as string | null, linkedin: null as string | null },
+  social: { instagram: "https://www.instagram.com/konformupcorse/", facebook: null as string | null, linkedin: "https://www.linkedin.com/in/karine-vannucci-2684ba1b3/" },
   legal: { address: null as string | null, siret: null as string | null, nda: null as string | null, publisher: null as string | null, host: "Vercel Inc." },
   media: { presentationVideo: null as string | null, presentationPoster: null as string | null },
   aiProvider: null as string | null,
