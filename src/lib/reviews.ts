@@ -8,7 +8,7 @@ export async function getPublicReviews(): Promise<PublicReview[]> {
   const token = process.env.REVIEWS_API_TOKEN;
   if (!endpoint || !token) return [];
   try {
-    const response = await fetch(endpoint, { headers: { Authorization: `Bearer ${token}` }, next: { revalidate: 3600 } });
+    const response = await fetch(endpoint, { headers: { Authorization: `Bearer ${token}` }, next: { revalidate: 300 } });
     if (!response.ok) return [];
     const data: unknown = await response.json();
     if (!Array.isArray(data)) return [];
