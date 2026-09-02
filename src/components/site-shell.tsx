@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { site } from "@/lib/site-config";
 
-const links = [ ["Formations", "/formations"], ["Méthode", "/methode-pedagogique"], ["À propos", "/a-propos"], ["Avis", "/avis"], ["FAQ", "/faq"] ];
+const links = [ ["Formations", "/formations"], ["Planning", "/planning"], ["Méthode", "/methode-pedagogique"], ["À propos", "/a-propos"], ["Avis", "/avis"], ["FAQ", "/faq"] ];
 export function Header() { return <header className="header"><Link href="/" className="brand" aria-label="Konform’up — accueil"><Image src="/konformup-logo.png" width={130} height={98} priority alt="Logo Konform’up"/></Link><nav aria-label="Navigation principale">{links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}</nav><Link className="button button-small" href="/demande-devis#formulaire-devis">Demander un devis</Link></header>; }
 function PhoneIcon(){return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 2.8 9.4 2l1.8 4.5-2 1.5c1 2.1 2.7 3.8 4.8 4.8l1.5-2 4.5 1.8-.8 2.8a2.8 2.8 0 0 1-3.1 2C8.9 16.5 7.5 15.1 6.6 8.1a2.8 2.8 0 0 1 0-5.3Z"/></svg>}
 function MailIcon(){return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>}

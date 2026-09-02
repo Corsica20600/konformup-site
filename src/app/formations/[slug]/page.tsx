@@ -52,6 +52,7 @@ export default async function TrainingPage({ params }: { params: Promise<{ slug:
           <p><b>Public</b>{training.audience}</p>
           <p><b>Prérequis</b>{training.prerequisites}</p>
           {training.duration ? <p><b>Durée</b>{training.duration}</p> : null}
+          {training.slug === "sst-initiale" ? <p><b>Tarif indicatif</b>À partir de 150 € HT par personne.</p> : null}
         </aside>
         <div>
           <h2>Objectifs</h2>
